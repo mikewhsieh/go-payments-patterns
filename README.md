@@ -78,6 +78,12 @@ GO_PAYMENTS_PATTERNS_DSN="postgres://localhost:5432/go_payments_patterns_test" g
 Without the environment variable they skip, so `go test ./...` stays
 green on any machine.
 
+## Further reading
+
+- [Idempotent Payment Settlement in Go](https://mikewhsieh.github.io/idempotent-payment-settlement-in-go/) —
+  the article that walks through the settlement flow in this
+  repository, layer by layer.
+
 ## Author
 
 Mike Hsieh — backend engineer in Taipei. I spent the last few years
